@@ -3,12 +3,27 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-## Objective
+## Project Summary
 
-Configure account lockout policies using Group Policy, manage user account states (lock, unlock, disable, enable), and observe authentication-related security logs in Active Directory and client systems.
+This project demonstrates identity and access management through Group Policy configuration. Account lockout thresholds were implemented, accounts were locked/unlocked, disabled/enabled, and authentication logs were reviewed in Event Viewer.
+
+### Languages Used
+- PowerShell (policy update commands)
+
+### Environments Used
+- Microsoft Azure
+- Windows Server (Domain Controller)
+- Windows 10 (Client Machine)
+
+### Technologies / Services Used
+- Active Directory
+- Group Policy Management
+- Event Viewer
+- Azure Virtual Machines
+
 
 ---
-
+# Demonstration
 # Part 1 – Account Lockout Policy
 
 ## Step 1 – Simulate Failed Login Attempts
